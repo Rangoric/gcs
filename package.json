@@ -47,7 +47,7 @@
     "clean": "gatsby clean",
     "debug": "node --inspect node_modules/.bin/gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b website",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
