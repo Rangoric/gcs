@@ -10,6 +10,11 @@ In here we have a few things going on
 
 The custom data is meant to be a way to enter whatever you want on your character sheet. I'm toying with an idea to snapshot character sheets to share, which will "basically" allow us to not share content we aren't allowed to share.
 
+The license file in the `/src/pages/srd` folder covers everything in that folder.
+The license file in the `/src/pages/darian` folder covers everything in that folder.
+The license file in _this_ folder covers everything else aside from:
+- `/static/CNAME` -> This has a domain name you must change.
+
 ## Acknowledgements
 
 ### Data Sources of Note

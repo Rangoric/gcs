@@ -43,4 +43,4 @@ module.exports = {
     `gatsby-plugin-mdx`,
     // `gatsby-plugin-offline`,
   ],
-}
+};
