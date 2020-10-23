@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
             </Menu>
           }
         >
-          <Button>Menu</Button>
+          <Button>Ruleset</Button>
         </Popover>{" "}
       </Pane>
       <Pane is={"main"} background={"tealTint"} padding={majorScale(1)}>
