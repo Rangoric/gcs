@@ -1,4 +1,10 @@
-import { ListItem, OrderedList, Paragraph, Strong, UnorderedList } from "evergreen-ui";
+import {
+  ListItem,
+  OrderedList,
+  Paragraph,
+  Strong,
+  UnorderedList,
+} from "evergreen-ui";
 import { A } from "./src/components/A";
 import {
   Heading1,
@@ -19,7 +25,7 @@ export const componentsForMDX = {
   h6: Heading6,
   p: Paragraph,
   ul: UnorderedList,
-  ol:OrderedList,
+  ol: OrderedList,
   li: ListItem,
   strong: Strong,
 };

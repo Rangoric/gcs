@@ -7,27 +7,27 @@ export const Heading1: React.FC<{}> = ({ children }) => (
   </Heading>
 );
 export const Heading2: React.FC<{}> = ({ children }) => (
-  <Heading is={"h1"} size={800}>
+  <Heading is={"h2"} size={800}>
     {children}
   </Heading>
 );
 export const Heading3: React.FC<{}> = ({ children }) => (
-  <Heading is={"h1"} size={700}>
+  <Heading is={"h3"} size={700}>
     {children}
   </Heading>
 );
 export const Heading4: React.FC<{}> = ({ children }) => (
-  <Heading is={"h1"} size={600}>
+  <Heading is={"h4"} size={600}>
     {children}
   </Heading>
 );
 export const Heading5: React.FC<{}> = ({ children }) => (
-  <Heading is={"h1"} size={500}>
+  <Heading is={"h5"} size={500}>
     {children}
   </Heading>
 );
 export const Heading6: React.FC<{}> = ({ children }) => (
-  <Heading is={"h1"} size={400}>
+  <Heading is={"h6"} size={400}>
     {children}
   </Heading>
 );
