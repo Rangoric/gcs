@@ -3,8 +3,8 @@ import { Link } from "evergreen-ui";
 import React from "react";
 
 export interface IAProps {
-  to: string;
-  href: string;
+  to?: string;
+  href?: string;
   textDecoration?: string;
 }
 

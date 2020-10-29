@@ -21,6 +21,7 @@ import {
 } from "evergreen-ui";
 import "./layout.css";
 import { A } from "./A";
+import { Navigation } from "./Navigation";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -36,6 +37,7 @@ const Layout = ({ children }) => {
   return (
     <Pane display={"grid"}>
       <Pane
+        is="header"
         background={"purpleTint"}
         padding={minorScale(1)}
         display={"flex"}
@@ -58,8 +60,9 @@ const Layout = ({ children }) => {
           }
         >
           <Button>Ruleset</Button>
-        </Popover>{" "}
+        </Popover>
       </Pane>
+      <Navigation />
       <Pane is={"main"} background={"tealTint"} padding={majorScale(1)}>
         {children}
       </Pane>
