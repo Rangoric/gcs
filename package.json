@@ -48,6 +48,7 @@
     "debug": "node --inspect node_modules/.bin/gatsby develop",
     "build": "gatsby build",
     "deploy": "gatsby build && gh-pages -d public -b website",
+    "pushtomaster":"gh-pages -d public -b website",
     "develop": "gatsby develop",
     "format": "prettier --write **/*.{js,jsx,tsx,ts}",
     "start": "npm run develop",
