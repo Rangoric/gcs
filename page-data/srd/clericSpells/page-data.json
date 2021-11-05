@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-srd-cleric-spells-mdx","path":"/srd/clericSpells/","result":{"pageContext":{"frontmatter":{}}},"staticQueryHashes":["3059737122","3649515864"]}
+{
+    "componentChunkName": "component---src-pages-srd-cleric-spells-mdx",
+    "path": "/srd/clericSpells/",
+    "result": {"pageContext":{"frontmatter":{}}},
+    "staticQueryHashes": ["3059737122","3649515864"]}

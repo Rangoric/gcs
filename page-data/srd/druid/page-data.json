@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-srd-druid-mdx","path":"/srd/druid/","result":{"pageContext":{"frontmatter":{}}},"staticQueryHashes":["3059737122","3649515864"]}
+{
+    "componentChunkName": "component---src-pages-srd-druid-mdx",
+    "path": "/srd/druid/",
+    "result": {"pageContext":{"frontmatter":{}}},
+    "staticQueryHashes": ["3059737122","3649515864"]}
