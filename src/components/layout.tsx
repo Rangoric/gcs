@@ -6,7 +6,6 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
 import { useStaticQuery, graphql, Link as GatsbyLink, navigate } from "gatsby";
 import {
   Heading,
@@ -73,10 +72,6 @@ const Layout = ({ children }) => {
       </Pane>
     </Pane>
   );
-};
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 };
 
 export default Layout;
